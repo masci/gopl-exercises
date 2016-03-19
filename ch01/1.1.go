@@ -10,7 +10,7 @@ func main() {
 	for _, arg := range os.Args {
 		s += sep + arg
 		sep = " "
-
 	}
+
 	fmt.Println(s)
 }
